@@ -1,0 +1,1 @@
+Configuration for using the Bootstrap and Magritte project for seaside applications
