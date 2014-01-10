@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MAListCompositonComponent",
+	"category" : "Bootstrap-Magritte-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TBSListCompositionComponent",
+	"type" : "normal"
+}
