@@ -1,4 +1,4 @@
-*Bootstrap-Magritte-Core-Core
+*bootstrap-magritte-core
 placeholder
 	^ self 
 		propertyAt: #placeholder 

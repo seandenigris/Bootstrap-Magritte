@@ -1,3 +1,3 @@
-*Bootstrap-Magritte-Core-Core-Core-Core-Core-Core
+*bootstrap-magritte-core
 tbsInlineValidationMessages: aBoolean
 	self propertyAt: #tbsInlineValidationMessages put: aBoolean

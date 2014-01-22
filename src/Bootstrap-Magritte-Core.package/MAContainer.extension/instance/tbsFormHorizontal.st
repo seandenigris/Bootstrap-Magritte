@@ -1,3 +1,3 @@
-*Bootstrap-Magritte-Core-Core-Core-Core-Core-Core
+*bootstrap-magritte-core
 tbsFormHorizontal
 	^ self propertyAt: #tbsFormHorizontal ifAbsent: [ false ]

@@ -1,3 +1,3 @@
-*Bootstrap-Magritte-Core-Core
+*bootstrap-magritte-core
 placeholder: placeHolderText
 	^ self propertyAt: #placeholder put: placeHolderText

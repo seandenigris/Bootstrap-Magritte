@@ -1,3 +1,3 @@
-*Bootstrap-Magritte-Core-Core-Core-Core-Core-Core
+*bootstrap-magritte-core
 tbsFormInline
 	^ self propertyAt: #tbsFormInline ifAbsent: [ false ]
