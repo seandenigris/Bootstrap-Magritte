@@ -9,10 +9,12 @@ baseline010: spec
             spec timestamp: '01/10/2014 20:00'.		
 		spec repository: 'http://smalltalkhub.com/mc/TorstenBergmann/BootstrapMagritte/main/'.    
 		
-		spec project: 'Bootstrap' with: [                                                     
-                                spec
-                                        className: 'ConfigurationOfBootstrap';
-                                        repository: 'http://smalltalkhub.com/mc/TorstenBergmann/Bootstrap/main' ].
+		spec project: 'Bootstrap' with: [
+			spec
+				className: 'ConfigurationOfBootstrap';
+				repository: 'http://smalltalkhub.com/mc/TorstenBergmann/Bootstrap/main';
+				loads: #( 'core' 'widgets' );
+				versionString: #'stable' ].
 
 		spec project: 'Magritte3' with: [
 				spec
@@ -24,6 +26,5 @@ baseline010: spec
 		spec package: 'Bootstrap-Magritte-Core' with: [ spec requires: #('Bootstrap' 'Magritte3') ].
 		spec package: 'Bootstrap-Magritte-Examples' with: [ spec requires: 'Bootstrap-Magritte-Core' ].
 		
-		spec group: 'default' 
-                     	with:   #('Bootstrap-Magritte-Core' 'Bootstrap-Magritte-Examples') ].
+		spec group: 'default' with: #('Bootstrap-Magritte-Core' 'Bootstrap-Magritte-Examples') ].
 			

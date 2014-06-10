@@ -7,7 +7,7 @@ version021: spec
 		spec description: 'Modified version to load the latest version, based on Seaside 3.1.x'.
 		spec author: 'Diego Lont'.
 		spec timestamp: '22 jan. 2014'.	
-		spec project: 'Magritte3' with: '3.1';
-		project: 'Bootstrap' with: '0.6.0'.
+		spec project: 'Magritte3' with: #'release3.1';
+		project: 'Bootstrap' with: '0.9.0'.
 			" we do not specify our packages, as this is our development version.
 			We want the latest loaded." ].
