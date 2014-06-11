@@ -1,19 +1,20 @@
 baselines
-baseline010: spec 
-        <version: '0.1.0-baseline'>
+baseline020: spec 
+        <version: '0.2.0-baseline'>
         
 	spec for: #common do: [
 		spec blessing: #baseline.
-		spec description: 'First baseline, including magritte'.
-            spec author: 'Torsten Bergmann'.
-            spec timestamp: '01/10/2014 20:00'.		
+		spec description: 'Group definitions in Bootstrap changed'.
+            spec author: 'Stephan Eggermont'.
+            spec timestamp: '2014-6-11'.		
 		spec repository: 'http://smalltalkhub.com/mc/TorstenBergmann/BootstrapMagritte/main/'.    
 		
 		spec project: 'Bootstrap' with: [
 			spec
 				className: 'ConfigurationOfBootstrap';
 				repository: 'http://smalltalkhub.com/mc/TorstenBergmann/Bootstrap/main';
-				versionString: #'stable'. ].
+				versionString: #'stable';
+				loads: #( 'core' 'widgets' ) ].
 
 		spec project: 'Magritte3' with: [
 				spec
