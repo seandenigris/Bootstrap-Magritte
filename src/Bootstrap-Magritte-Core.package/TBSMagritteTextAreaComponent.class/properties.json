@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MATextAreaComponent",
+	"category" : "Bootstrap-Magritte-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TBSMagritteTextAreaComponent",
+	"type" : "normal"
+}
