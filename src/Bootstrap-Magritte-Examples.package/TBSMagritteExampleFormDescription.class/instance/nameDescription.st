@@ -8,6 +8,5 @@ nameDescription
 		beRequired;
 		requiredErrorMessage: 'We cannot proceed without a name.';
 		comment: 'Please enter your name';
-		componentClass: TBSMagritteTextInputComponent; "is required for placeholder text below"
-		placeholder: 'your name';
+		componentClass: TBSMagritteTextInputComponent;
 		yourself
