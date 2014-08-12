@@ -1,7 +1,7 @@
 rendering
 renderContentOn: html
 	self renderLegendOn: html.
-	html form
+	html tbsForm
 		class: 'magritte';
 		class: self formCss;
 		multipart: self requiresMultipartForm;

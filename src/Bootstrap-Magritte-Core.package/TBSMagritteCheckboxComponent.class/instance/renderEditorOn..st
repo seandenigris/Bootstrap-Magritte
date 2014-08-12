@@ -4,7 +4,7 @@ renderEditorOn: html
 		class: 'checkbox';
 		with: [
 			html label: [ 
-				html checkbox
+				html tbsCheckbox
 					id: self labelId;
 					disabled: self isReadonly;
 					on: #value of: self.
