@@ -8,6 +8,6 @@ version022: spec
 		spec author: 'Udo Schneider'.
 		spec timestamp: '15 sep. 2014'.	
 		spec project: 'Magritte3' with: #'release3.1';
-		project: 'Bootstrap' with: '0.12.1'.
+		project: 'Bootstrap' with: #stable.
 			" we do not specify our packages, as this is our development version.
 			We want the latest loaded." ].

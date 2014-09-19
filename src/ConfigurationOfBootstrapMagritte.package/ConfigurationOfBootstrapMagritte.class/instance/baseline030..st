@@ -14,7 +14,7 @@ baseline030: spec
 				className: 'ConfigurationOfBootstrap';
 				repository: 'http://smalltalkhub.com/mc/TorstenBergmann/Bootstrap/main';
 				versionString: #'stable';
-				loads: #( 'Core' 'Widgets' ) ].
+				loads: #( 'default' ) ].
 
 		spec project: 'Magritte3' with: [
 				spec
