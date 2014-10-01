@@ -4,4 +4,4 @@ renderSelectButtonOn: html
 		beSubmit;
 		class: 'btn';
 		callback: [self add];
-		with: [html tbsGlyphIcon iconPlus; space; text: (self labelForSelector: #add)]
+		with: [html tbsGlyphIcon iconPlus. html space; text: (self labelForSelector: #add)]
