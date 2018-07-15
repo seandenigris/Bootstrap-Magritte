@@ -2,16 +2,9 @@ rendering
 renderInputOn: html
 	| textInput |
 	textInput := html textInput.
-	description placeholder notNil ifTrue: [ 
-		textInput placeholder: description placeholder ].
-	
-	description cssClasses isEmpty ifFalse: [
-		textInput class: (String streamContents: [:stream |
-			description cssClasses 
-				do: [:cls | stream nextPutAll: cls] 
-				separatedBy: [stream nextPut: Character space]])].
-
+	description placeholder ifNotNil: [ :ph | textInput placeholder: ph ].
+	description cssClasses do: [ :cls | textInput class: cls ].
 	textInput
 		id: self labelId;
 		disabled;
-		on: #string of: self. 
+		on: #string of: self
